@@ -8,7 +8,7 @@
         <entry key="..\:/Users/Hp/AndroidStudioProjects/MyTodoApplication/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1795" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/MyTodoApplication/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1795" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/MyTodoApplication/app/src/main/res/drawable/todo_bg.xml" value="0.1795" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/MyTodoApplication/app/src/main/res/layout/activity_main.xml" value="0.27025641025641023" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/MyTodoApplication/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/MyTodoApplication/app/src/main/res/layout/item_todo.xml" value="0.264" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/MyTodoApplication/app/src/main/res/layout/todos.xml" value="0.27447916666666666" />
       </map>
@@ -19,5 +19,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.152" />
+      </ProjectState>
+    </option>
   </component>
 </project>

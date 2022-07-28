@@ -2,9 +2,11 @@ package com.example.mytodoapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.item_todo.*
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,8 +30,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        deleteButton.setOnClickListener {
-            todoAdapter.deleteTodo()
-        }
+        todoAdapter.onItemClick(object : OnClickListener {
+            override fun openItem(position: Int) {
+                Toast.makeText(applicationContext, "" + position, Toast.LENGTH_SHORT).show()
+            }
+        })
     }
 }
